@@ -4,6 +4,8 @@
     width: 1440px;
     height: 606px;
     flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
 }
 .header-conteiner {
     display: flex;

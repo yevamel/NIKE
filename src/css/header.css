@@ -13,10 +13,53 @@ gap: 5px;
 }
 .header-nav-language::before {
     background-image: url(/src/images/логтип.png);
-    gap: 50px;
+    gap: 100px;
 }
 .header {
     flex-shrink: 0;
     background: #012D63;
 }
-
+.bakground {
+    background-image: url(/src/images/фон\ хедера.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 858px;
+    flex-shrink: 0;
+}
+.colorawe {
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 144px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.dream {
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Playfair Display',serif;
+    font-size: 73px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 76px 0 10px;
+}
+.Buy {
+    color: #fff;
+    display: block;
+    border-radius: 5px;
+  padding: 10px 32px;
+    border: none;
+    outline: none;
+    background: #8E32C6;
+}
+p {
+    color: #fff;
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 10px;
+}

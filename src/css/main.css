@@ -1,5 +1,6 @@
 
 .fon {
+    background-image: url(/src/images/фон\ main\ 1.png);
     width: 1440px;
     height: 606px;
     flex-shrink: 0;
@@ -18,17 +19,7 @@
     font-weight: 400;
     line-height: normal;
 }
-.dream {
-    margin-left: 164px;
-    padding-top: 12px;
-    color: #fff;
-    font-family: 'Playfair Display',serif;
-    font-size: 73px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 0px 76px 0 10px;
-}
+
 .bakground {
     background-image: url(/src/images/фон\ хедера.png);
     background-repeat: no-repeat;
@@ -36,22 +27,30 @@
     padding-top: 95px;
     padding-bottom: 18px;
 }
-.buy {
-    width: 254px;
-    height: 67px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: #8E32C6;
-    padding: 19px 61px;
-}
-p {
-    color: #fff;
-    font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
 .bakground_conteiner {
-
+width: 1007px;
+margin: 0 auto;
 }
+.fon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style: none; 
+   
+}
+.fon-class{
+    width: 50px;
+    margin: 100px;
+    padding: 100px;
+    border-radius: 4px;
+}
+.fon-class:nth-child(1)::after {
+    background-image: url(/src/images/Звёзды\ 1.png);
+  }
+  .fon-class:nth-child(2)::before {
+    background-image: url(/img/car.webp);
+  }
+  .fon-class:nth-child(3)::after {
+    background-image: url(/img/car.webp);
+  }

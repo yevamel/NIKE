@@ -62,12 +62,6 @@ line-height: normal;
     outline: none;
     background: #8E32C6;
 }
-p {
-    color: #fff;
-    font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin: 10px;
+.p {
+
 }

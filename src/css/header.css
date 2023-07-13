@@ -1,0 +1,22 @@
+.header-nav-list{
+display: flex;
+list-style: none;
+gap: 60px;
+align-items: center;
+font-size: 16px;
+line-height: 19px;
+}
+.header-nav-language {
+display: flex;
+align-items: center;
+gap: 5px;
+}
+.header-nav-language::before {
+    background-image: url(/src/images/логтип.png);
+    gap: 50px;
+}
+.header {
+    flex-shrink: 0;
+    background: #012D63;
+}
+

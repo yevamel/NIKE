@@ -1,5 +1,5 @@
+
 .fon {
-    background-image: url(/src/images/фон\ хедера.png);
     width: 1440px;
     height: 606px;
     flex-shrink: 0;
@@ -30,8 +30,28 @@
     padding: 0px 76px 0 10px;
 }
 .bakground {
-    background: url(/src/images/фон\ хедера.png);
+    background-image: url(/src/images/фон\ хедера.png);
     background-repeat: no-repeat;
-    width: 1440px;
-    height: 858px;
+    background-size: cover;
+    padding-top: 95px;
+    padding-bottom: 18px;
+}
+.buy {
+    width: 254px;
+    height: 67px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #8E32C6;
+    padding: 19px 61px;
+}
+p {
+    color: #fff;
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.bakground_conteiner {
+
 }

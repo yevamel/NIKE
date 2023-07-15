@@ -11,7 +11,7 @@ line-height: 19px;
 display: flex;
 align-items: center;
 gap: 5px;
-color: #C7C7C7;
+color: #fff;
 font-size: 24px;
 font-style: normal;
 font-weight: 300;
@@ -23,9 +23,14 @@ font-weight: 300;
 .header {
     flex-shrink: 0;
     background: #012D63;
+    color: #FFF;
+}
+.header-p {
+    display: flex;
+    color: #FFF;
 }
 .header:hover {
-    color: #FFF;
+    color: #C7C7C7;
 }
 .bakground {
     background-image: url(/src/images/фон\ хедера.png);
@@ -55,13 +60,13 @@ line-height: normal;
 }
 .Buy {
     color: #fff;
-    display: block;
-    border-radius: 5px;
-  padding: 10px 32px;
+    display: inline-block;
+    border-radius: 3px;
+  padding: 12px;
+  text-decoration: none;
     border: none;
-    outline: none;
+    font-size: 27px;
+    line-height: 1;
+    font-weight: 100px;
     background: #8E32C6;
-}
-.p {
-
 }

@@ -1,87 +1,79 @@
-
-.fon {
-background: #052433;
-    width: 1440px;
-    height: 606px;
-    flex-shrink: 0;
-    align-items: center;
-    justify-content: center;
+.advantages {
+  background: #052433;
+  padding: 105px 0;
 }
-.fon-conteiner {
-  width: 240px;
+.advantages-conteiner {
+  max-width: 1110px;
   margin: 0 auto;
-  border: 2px solid #8E32C6;
+  border: 2px solid #8e32c6;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
 }
-.fon-class{
-  display: inline-block;
-    padding: 0px;
-    margin-right: 100px;
-    margin-bottom: 10px;
-    position: absolute;
-   background-position: center;
-  }
+
 .fon-class:nth-child(1)::after {
-    background-image: url(/src/images/Звёзды\ 1.png)
-  }
-  .fon-class:nth-child(2)::before {
-    background-image: url(/src/images/Краски\ 1.png);
-  }
-  .fon-class:nth-child(3)::after {
-    background-image: url(/src/images/Грузан\ 1.png);
-  }
+  background-image: url(/src/images/Звёзды\ 1.png);
+}
+.fon-class:nth-child(2)::before {
+  background-image: url(/src/images/Краски\ 1.png);
+}
+.fon-class:nth-child(3)::after {
+  background-image: url(/src/images/Грузан\ 1.png);
+}
 .header-conteiner {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 .text {
-    color: #fff;
-    text-align: center;
-    font-family: Playfair Display;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #fff;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .bakground {
-    background-image: url(/src/images/фон\ хедера.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 95px;
-    padding-bottom: 18px;
+  background-image: url(/src/images/фон\ хедера.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 95px;
+  padding-bottom: 18px;
 }
 .bakground_conteiner {
-width: 1007px;
-margin: 0 auto;
+  width: 1007px;
+  margin: 0 auto;
 }
 
-  .p  {
-color: #fff;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin: 10px;
-border-radius: 15px;}
+.p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 10px;
+  border-radius: 15px;
+}
 
-  .Reviews-conteiner {
-display: inline-flex; 
-background-repeat: no-repeat;
-  }
-  .Reviews-text{
-    color: #FFF;
-text-align: center;
-font-family: Playfair Display;
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-  }
+.Reviews-conteiner {
+  display: inline-flex;
+  background-repeat: no-repeat;
+}
+.Reviews-text {
+  color: #fff;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 .Order-text {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Playfair Display;
   font-size: 48px;
@@ -92,20 +84,20 @@ line-height: normal;
 .Order-my-nike {
   color: #fff;
   border-radius: 3px;
-padding: 12px;
-text-decoration: none;
+  padding: 12px;
+  text-decoration: none;
   border: none;
   font-size: 27px;
   line-height: 1;
   font-weight: 100px;
-  background: #8E32C6;
+  background: #8e32c6;
 }
 .h1 h3 {
   border: solid #fff;
 }
 .reviews {
-background: #052433;
-width: 1440px;
-height: 520px;
-flex-shrink: 0;
+  background: #052433;
+  width: 1440px;
+  height: 520px;
+  flex-shrink: 0;
 }

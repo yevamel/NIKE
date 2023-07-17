@@ -1,5 +1,5 @@
 .advantages {
-  background: #052433;
+  background: #021635;
   padding: 105px 0;
 }
 .advantages-conteiner {
@@ -57,12 +57,14 @@
   margin: 10px;
   border-radius: 15px;
 }
-
-.Reviews-conteiner {
-  display: inline-flex;
-  background-repeat: no-repeat;
+.reviews-conteiner {
+  display: flex;
+  max-width: 1110px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 25px 50px;
 }
-.Reviews-text {
+.reviews-text {
   color: #fff;
   text-align: center;
   font-family: Playfair Display;
@@ -72,7 +74,7 @@
   line-height: normal;
 }
 
-.Order-text {
+.title-order {
   color: #fff;
   text-align: center;
   font-family: Playfair Display;
@@ -80,6 +82,40 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.review-card:nth-child(1)::after {
+  display: inline-block;
+  color: #fff;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #00E5E6 7.29%,#00A8F7 2626.04%,#9A76F9 63.50%,#CC5EC2 100% );
+ box-shadow:  0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+
+}
+.review-card:nth-child(2) {
+  display: inline-block;
+  color: #fff;
+  border-radius: 15px;
+background: linear-gradient(135deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+box-shadow: 0px 50px 0px -25px #61337C, 0px 14px 0px -5px #9159B1;
+}
+.review-card:nth-child(3) {
+  display: inline-block;
+  color: #fff;
+  border-radius: 15px;
+background: linear-gradient(135deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+}
+.review-card{
+  width: 255px;
+height: 292px;
+flex-shrink: 0;
+font-family: Roboto;
+display: flex;
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .Order-my-nike {
   color: #fff;
@@ -96,8 +132,74 @@
   border: solid #fff;
 }
 .reviews {
-  background: #052433;
+  background: #021635;
+  background-image: url(/src/images/Цветы.png);
+  background-repeat: no-repeat;
   width: 1440px;
   height: 520px;
   flex-shrink: 0;
+}
+.Order-section {
+background-image: url(/src/images/фон.png);
+max-width: 1400;
+width: 1440px;
+height: 509px;
+flex-shrink: 0;
+
+}
+.guestions {
+  display: flexbox;
+  width: 690px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+}
+.contry {
+  display: flex;
+  width: 580px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+background: #FFF;
+}
+.city {
+  display: flex;
+  width: 580px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+background: #FFF;
+}
+.adress {
+  display: flex;
+  width: 580px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+background: #FFF;
+}
+.question-section {
+  background: #021635;
+  width: 1440px;
+height: 292px;
+flex-shrink: 0;
+}
+.Order-section {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+.question-section {
+  color: #fff;
+  display: block;
+}
+.footer-question {
+  justify-content: start;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

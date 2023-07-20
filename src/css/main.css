@@ -12,13 +12,13 @@
 }
 
 .fon-class:nth-child(1)::after {
-  background-image: url(/src/images/Звёзды\ 1.png);
+  background-image: url(/src/images/stars.png);
 }
 .fon-class:nth-child(2)::before {
-  background-image: url(/src/images/Краски\ 1.png);
+  background-image: url(/src/images/paint.png);
 }
 .fon-class:nth-child(3)::after {
-  background-image: url(/src/images/Грузан\ 1.png);
+  background-image: url(/src/images/car.png);
 }
 .header-conteiner {
   display: flex;
@@ -36,7 +36,7 @@
 }
 
 .bakground {
-  background-image: url(/src/images/фон\ хедера.png);
+  background-image: url(/src/images/fon-header.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 95px;
@@ -47,7 +47,7 @@
   margin: 0 auto;
 }
 .bakground_conteiner::before {
-  background-image: url(/src/images/логтип.png);
+  background-image: url(/src/images/logo.png);
 
 }
 .p {
@@ -122,14 +122,14 @@ align-items: center;
 }
 .reviews {
   background: #021635;
-  background-image: url(/src/images/Цветы.png);
+  background-image: url(/src/images/flowers.png);
   background-repeat: no-repeat;
   width: 1440px;
   height: 520px;
   flex-shrink: 0;
 }
-.Order-section {
-background-image: url(/src/images/фон.png);
+.order-section {
+background-image: url(/src/images/fon.png);
 max-width: 1400;
 width: 1440px;
 height: 509px;
@@ -158,7 +158,7 @@ flex-shrink: 0;
 .guestions {
 
 }
-.Order-section {
+.order-section {
   display: inline-block;
   justify-content: space-between;
   align-items: center;

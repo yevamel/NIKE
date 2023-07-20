@@ -17,7 +17,7 @@ font-style: normal;
 font-weight: 300;
 }
 .header-nav-language::before {
-    background-image: url(/src/images/логтип.png);
+    background-image: url(/src/images/logo.png);
     gap: 100px;
 }
 .header {
@@ -33,7 +33,7 @@ font-weight: 300;
     color: #C7C7C7;
 }
 .bakground {
-    background-image: url(/src/images/фон\ хедера.png);
+    background-image: url(/src/images/fon-header.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1440px;
@@ -58,7 +58,7 @@ line-height: normal;
     line-height: normal;
     padding: 0px 76px 0 10px;
 }
-.Buy {
+.buy {
     color: #fff;
     display: inline-block;
     border-radius: 3px;

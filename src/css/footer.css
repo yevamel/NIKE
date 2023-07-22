@@ -1,0 +1,47 @@
+/*footer*/
+.contry {
+    display: flex;
+    width: 580px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+  background: #FFF;
+  }
+  .city {
+    display: flex;
+    width: 580px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+  background: #FFF;
+  }
+  .adress {
+    display: flex;
+    width: 580px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+  background: #FFF;
+  }
+  .question-section {
+    background: #021635;
+    width: 1440px;
+    margin: 0 auto;
+    gap: 10px;
+    height: 292px;
+    flex-shrink: 0;
+    color: #fff;
+    display: block;
+  }
+  .footer-question {
+  display: flex;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .the-end {
+   
+  }

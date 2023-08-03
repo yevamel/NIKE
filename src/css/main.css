@@ -29,12 +29,18 @@
 /*Reviews*/
 .rewiews-container {
   display: flex;
-  stroke-width: 5px;
+  background-repeat: no-repeat;
   max-width: 1200px;
   margin: 0 auto;
   justify-content: center;
-  padding: 25px 50px;
+  gap: 25px;
   flex-direction: column;
+}
+.flowers {
+  display: inline;
+  background-repeat: no-repeat;
+padding-bottom: 245px;
+padding-top: 0 auto;
 }
 .reviews-text {
   color: #fff;
@@ -65,34 +71,43 @@ box-shadow: 0px 0px 30px -13px #61337C, 0px 14px 0px -5px #9159B1;
 background: linear-gradient(135deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
 box-shadow: 0px 0px 30px -13px #732F26, 0px 14px 0px -5px #B95A4C;
 }
-.reviews-data {
-  display: block;
-}
 .review-card{
   width: 255px;
   height: 292px;
-  flex-shrink: 0;
-font-family: Roboto;
-display: flex;
-text-align: center;
 font-size: 24px;
-justify-content: space-between;
 align-items: center;
+padding: 50px 15px 30px;
 }
 .reviews {
   background: #021635;
-  background-image: url(/src/images/flowers.png);
+  margin: 0 auto;
   background-repeat: no-repeat;
   width: 1440px;
-  height: 520px;
+  height: 550px;
   flex-shrink: 0;
 }
+.reviews-section {
+  display: flex;
+  background-position: left;
+  background-image: url(/src/images/flowers.png);
+  background-repeat: no-repeat;
+}
+.user{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 5px;
+}
+.user-info {
+  padding: 10px 15px 30px;
+}
+ 
 .review-card:nth-child(1) {
   display: inline-block;
   color: #fff;
   border-radius: 15px;
   background: linear-gradient(135deg, #00E5E6 7.29%,#00A8F7 2626.04%,#9A76F9 63.50%,#CC5EC2 100% );
- box-shadow:  0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+ box-shadow:  0px 31px 0px -20px #533978, 0px 20px 0px -5px #7B54B2;
 
 }
 .review-card:nth-child(2) {
@@ -100,36 +115,42 @@ align-items: center;
   color: #fff;
   border-radius: 15px;
 background: linear-gradient(135deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-box-shadow: 0px 50px 0px -25px #61337C, 0px 14px 0px -5px #9159B1;
+box-shadow: 0px 36px 0px -25px #61337C, 0px 20px 0px -5px #9159B1;
 }
 .review-card:nth-child(3) {
   display: inline-block;
   color: #fff;
   border-radius: 15px;
 background: linear-gradient(135deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+box-shadow: 0px 24px 0px -13px #732F26, 0px 20px 0px -5px #B95A4C;
 }
 .review-cards{
-  width: 255px;
-  height: 292px;
-  flex-shrink: 0;
-font-family: Roboto;
-gap: 147px;
 display: flex;
-text-align: center;
 font-size: 24px;
+gap: 98px;
 justify-content: space-between;
-align-items: center;
 }
 .h1 h3 {
   border: solid #fff;
 }
+.order-conteiner{
+  display: flexbox;
+  background-size: cover;
+  gap: 19px;
+}
 .order-section {
   background-image: url(/src/images/fon.png);
-max-width: 1400;
-width: 1440px;
-height: 509px;
-flex-shrink: 0;
+  background-repeat: no-repeat;
+  height: 509px;
+  max-width: 1400;
+margin: 0 auto;
+}
+.select {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 .order-my-nike {
   color: #fff;
@@ -153,6 +174,7 @@ flex-shrink: 0;
 }
 .email {
   display: flex;
+  gap: 60px;
   width: 690px;
   height: 60px;
   color: #959595;
@@ -167,20 +189,19 @@ background: #FFF;
 }
 .contry {
   display: flex;
+  gap: 60px;
   width: 580px;
   height: 50px;
   flex-shrink: 0;
   color: #959595;
 font-family: Roboto;
 font-size: 24px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
   border-radius: 50px;
-background: #FFF;
 }
 .city {
   display: flex;
+  gap: 60px;
   width: 580px;
   height: 50px;
   flex-shrink: 0;
@@ -195,6 +216,7 @@ background: #FFF;
 }
 .adress {
   display: flex;
+  gap: 60px;
   width: 580px;
   height: 50px;
   flex-shrink: 0;

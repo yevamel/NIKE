@@ -7,6 +7,12 @@ font-size: 24px;
 font-weight: 400;
 align-items: center;
 }
+.header-conteiner::before{
+  background-image: url(/src/images/logo.png),url(/src/images/С&R.svg);
+  width: 160px;
+height: 120px;
+flex-shrink: 0;
+}
 .header-conteiner {
     width: 1110px;
     height: 93px;
@@ -16,9 +22,7 @@ margin: 0 auto;
 display: flex;
 align-items: center;
 gap: 5px;
-
 font-size: 24px;
-
 font-weight: 300;
 }
 .header-nav-language::before {
@@ -40,17 +44,16 @@ font-weight: 300;
 }
 .bakground {
     background-image: url(/src/images/fon-header.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1440px;
-    height: 858px;
-    flex-shrink: 0;
-    padding-top: 95px;
-    padding-bottom: 18px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 858px;
+ padding-top: 95px;
+ padding-bottom: 18px;
 }
   .bakground_conteiner {
     width: 1007px;
-    margin: 0 auto;
+    height: 93px;
+margin: 0 auto;
   }
   .bakground_conteiner::before {
     background-image: url(/src/images/logo.png);

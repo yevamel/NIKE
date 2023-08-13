@@ -39,11 +39,10 @@ font-weight: 300;
 }
 /*header-2*/
 .header-p {
-    display: flex;
-    color: #FFF;
+    max-width: 510px;
 }
 .bakground {
-    background-image: url(/src/images/fon-header.png);
+    background-image: url(/src/images/fon-header.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    height: 858px;
@@ -57,7 +56,7 @@ margin: 0 auto;
   }
   .bakground_conteiner::before {
     background-image: url(/src/images/logo.png);
-  background-image: url(/src/images/С&R.svg);
+  background-image: url(/src/images/c&r.svg);
   }
   .p {
     color: #fff;
@@ -90,7 +89,7 @@ line-height: normal;
 .buy {
     color: #fff;
     display: inline-block;
-    border-radius: 3px;
+    border-radius: 10px;
   padding: 12px;
   margin-top: 30px;
   text-decoration: none;

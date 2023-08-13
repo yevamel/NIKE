@@ -2,7 +2,7 @@
 .advantages {
   background: #021635;
   padding: 105px 0;
-  box-shadow: radial-gradient(at 0% 30% purple 10px,purple 40%);
+  background: radial-gradient(circle at left top,rgb(110, 44, 165) 10%,#02163572 25%),radial-gradient(circle at right bottom,rgb(1, 170, 199) 10%,#021635 25%);
 }
 .advantages-conteiner {
   max-width: 1110px;
@@ -39,8 +39,7 @@
 .flowers {
   display: inline;
   background-repeat: no-repeat;
-padding-bottom: 245px;
-padding-top: 0 auto;
+background-position: left bottom;
 }
 .reviews-text {
   color: #fff;
@@ -80,11 +79,12 @@ padding: 50px 15px 30px;
 }
 .reviews {
   background: #021635;
+  background: radial-gradient(circle at right bottom,rgb(1, 170, 199) 10%,#021635 25%);
   margin: 0 auto;
   background-repeat: no-repeat;
-  width: 1440px;
+
   height: 550px;
-  flex-shrink: 0;
+
 }
 .reviews-section {
   display: flex;
@@ -130,6 +130,7 @@ font-size: 24px;
 gap: 98px;
 justify-content: space-between;
 }
+/*order*/
 .h1 h3 {
   border: solid #fff;
 }
@@ -140,9 +141,7 @@ justify-content: space-between;
 }
 .order-section {
   background-image: url(/src/images/fon.png);
-  background-repeat: no-repeat;
   height: 509px;
-  max-width: 1400;
 margin: 0 auto;
 }
 .select {

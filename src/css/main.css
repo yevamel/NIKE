@@ -35,12 +35,9 @@
   justify-content: center;
   gap: 25px;
   flex-direction: column;
+
 }
-.flowers {
-  display: inline;
-  background-repeat: no-repeat;
-background-position: left bottom;
-}
+
 .reviews-text {
   color: #fff;
   text-align: center;
@@ -81,9 +78,9 @@ padding: 50px 15px 30px;
   background: #021635;
   background: radial-gradient(circle at right bottom,rgb(1, 170, 199) 10%,#021635 25%);
   margin: 0 auto;
-  background-repeat: no-repeat;
-
-  height: 550px;
+  background-image: url(/src/images/flowers.png);
+background-position: left bottom;
+ 
 
 }
 .reviews-section {

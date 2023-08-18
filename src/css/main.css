@@ -38,7 +38,7 @@
 
 }
 .reviews-text {
-  color: #fff;
+  color: #c7c7c7;
   text-align: center;
   font-family: Playfair Display;
   font-size: 48px;
@@ -49,8 +49,8 @@
   width: 255px;
   height: 292px;
 font-size: 24px;
-align-items: center;
 padding: 50px 15px 30px;
+background-size: cover;
 }
 .reviews {
   background-color: #021635;
@@ -65,9 +65,15 @@ padding-bottom: 115px;
   align-items: center;
   font-size: 14px;
   gap: 5px;
+  background-position: left;
+}
+.reviews-data{
+  background-position: left;
+  font-size: 14px;
 }
 .user-info {
   padding: 10px 15px 30px;
+  background-position: left;
 }
  
 .review-card:nth-child(1) {
@@ -99,10 +105,10 @@ color: #fff;
 display: flex;
 font-size: 24px;
 gap: 98px;
+justify-content: center;
 text-align: center;
 background-size: cover;
-width: 951px;
-height: 292px;
+background-position: center;
 }
 /*order*/
 .h1 h3 {
@@ -210,7 +216,6 @@ background: #FFF;
 }
 .order-conteiner {
   display: flex;
-  display: flexbox;
   flex-direction: column;
   gap: 19px;
 

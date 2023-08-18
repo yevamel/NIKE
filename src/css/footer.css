@@ -24,7 +24,7 @@
     content: "";
     width: 108px;
 height: 90px;
-background-image: url(/src/images/logo.png),url(/src/images/С&R.svg);
+background-image: url(/src/images/logo.png),url(/src/images/c&r.svg);
 background-repeat: no-repeat;
 background-position: center top,center bottom;
 background-size: 100%,50%;

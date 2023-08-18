@@ -1,6 +1,7 @@
 /*header-nav*/
 .header-nav-list{
 display: flex;
+color:#C7C7C7 ;
 list-style: none;
 gap: 60px;
 font-size: 24px;
@@ -45,14 +46,15 @@ font-weight: 300;
     background-image: url(/src/images/fon-header.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   height: 858px;
+   max-height: 858px;
  padding-top: 95px;
  padding-bottom: 18px;
 }
   .bakground_conteiner {
-    width: 1007px;
-    height: 93px;
+    width: 1440px;
+height: 520px;
 margin: 0 auto;
+padding-left: 156px;
   }
   .bakground_conteiner::before {
     background-image: url(/src/images/logo.png);

@@ -1,0 +1,41 @@
+/*footer*/
+.footer {
+    background-color: #021635;
+    padding: 45px 0px 50px;
+  }
+  .footer-container {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+   .support-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+   }
+    .support-question,.support-emails {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+    }
+    .support-emails li {
+      text-decoration: underline;
+    }
+    .footer-logo-info::after {
+      content: "";
+      width: 108px;
+  height: 90px;
+  background-image: url(/src/images/logo.png),url(/src/images/c&r.svg);
+  background-repeat: no-repeat;
+  background-position: center top,center bottom;
+  background-size: 100%,50%;
+    }
+    .footer-logo-info{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-copyright {
+      display: flex;
+  flex-direction: column;
+  gap: 7px;
+    }

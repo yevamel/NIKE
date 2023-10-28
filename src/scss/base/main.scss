@@ -1,0 +1,240 @@
+@import url(/src/scss/base/_reset.scss);
+@import url(/src/scss/base/_nornalise.scss);
+@import url(/src/scss/base/main.scss);
+@import url(/src/scss/base/components/_header.scss);
+@import url(/src/scss/base/components/_footer.scss);
+
+
+
+
+/*advantages-cards*/
+.advantages {
+    background: #021635;
+    padding: 105px 0;
+    background: radial-gradient(circle at left top,rgb(110, 44, 165) 10%,#02163572 25%),radial-gradient(circle at right bottom,rgb(1, 170, 199) 10%,#021635 25%);
+  }
+  .advantages-conteiner {
+    max-width: 1110px;
+    margin: 0 auto;
+    border: 2px solid #8e32c6;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+  }
+  .header-conteiner {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .text {
+    color: #fff;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  /*Reviews*/
+  .rewiews-container {
+    display: flex;
+    background-repeat: no-repeat;
+    max-width: 955px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 25px;
+    flex-direction: column;
+  
+  }
+  .reviews-text {
+    color: #c7c7c7;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .review-card{
+    color: #c7c7c7;
+    width: 255px;
+    height: 292px;
+  font-size: 24px;
+  padding: 50px 15px 30px;
+  background-size: cover;
+  }
+  .reviews {
+    background-color: #021635;
+    background: url(/src/images/flowers.png),
+    radial-gradient(circle at right bottom,rgb(1, 170, 199) 10%,#021635 25%);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  padding-bottom: 115px;
+  }
+  .user{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 5px;
+    background-position: left;
+  }
+  .user-pfoto {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center center;
+    
+  }
+  .user-pfoto img{
+  width: 100%;
+  }
+  .reviews-data{
+    background-position: left;
+    font-size: 14px;
+  }
+  .user-info {
+    padding: 10px 15px 30px;
+    background-position: left;
+  }
+   
+  .review-card:nth-child(1) {
+    display: inline-block;
+    color: #fff;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.50%, #CC5EC2 100%);
+    box-shadow: 0px 14px 0px -5px #7B54B2,0px 30px 0px -13px #533978;
+  }
+  .review-card:nth-child(2) {
+    display: inline-block;
+    color: #fff;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow:  0px 14px 0px -5px #9159B1,0px 30px 0px -13px #61337C;
+  }
+  .review-card:nth-child(3) {
+    display: inline-block;
+    color: #fff;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 14px 0px -5px #B95A4C,0px 30px 0px -13px #732F26;
+  }
+  .review-card:hover{
+  color: #fff;
+  }
+  .review-cards{
+  display: flex;
+  justify-content: space-between;
+  }
+  /*order*/
+  .order-conteiner{
+    max-width: 690px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+  .order-section {
+    background-image: url(/src/images/fon.png);
+    background-size: cover;
+    padding: 20px 0 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .order-form{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .order-form > input{
+  padding: 12px 24px ;
+  }
+  .order-my-nike {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px;
+    border: none;
+    font-size: 27px;
+    background: #8e32c6;
+    width: 248px;
+  height: 68px;
+  }
+  .title-order {
+    color: #fff;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .email {
+    display: flex;
+    gap: 60px;
+    width: 690px;
+    height: 60px;
+    color: #959595;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0;
+    border-radius: 50px;
+  background: #FFF;
+  }
+  .contry {
+    display: flex;
+    gap: 60px;
+    width: 580px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #959595;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+    border-radius: 50px;
+  }
+  .city {
+    display: flex;
+    gap: 60px;
+    width: 580px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #959595;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+    border-radius: 50px;
+  background: #FFF;
+  }
+  .adress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    width: 580px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #959595;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+    border-radius: 50px;
+  background: #FFF;
+  }
+  .order-conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+  
+  }
